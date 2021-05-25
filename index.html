@@ -6,19 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-    #header{background-color: pink;}
+    html,body {
+                width: 100%;
+                height: 100%;
+                }
+    #header{
+            height: 20%;
+            background-color: pink;
+            }
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
     #nav{
-        width: 30%;
+        width: 15%;
+        height: 70%;
         background-color:aquamarine;
         float: left;
     }
     #container{
-        width:100%;
-        background-color: indianred;
-        background-image:url("네즈코.png");
+        width:85%;
+        height: 70%;
         float: right;
     }
+    #container ul {
+         list-style:circle;
+    }
     #footer{
+        height:10%;
         background-color:grey;
         clear:both;
     }
@@ -26,7 +41,7 @@
 </head>
     <body>
         <div id="header">
-                <h1>Acceptance</h1>
+                <h1>Homepage</h1>
         </div>
         <div id="nav">
             <ul>
@@ -37,10 +52,18 @@
             </ul>
         </div>
         <div id="container">
-            <p>welcome</p>
+               <a href="https://www.sehwa.hs.kr"> <img scr= "네즈코.png" width="300px"
+                height="300px"></a>
+               <ul>
+                    <li>이름:백승빈</li>
+                    <li>나이:17</l1>
+                    <li>생일:2005.03.30</li>
+                    <li>취미:농구</li>
+                    </ul>
+                    <p>Hello! Welcome HOME :)</p>
         </div>
         <div id="footer">
-            https://github.com/dbaek330/homepage
+            https://github.com/dbaek330/homepage.git
         </div>
     </body>
 </html>
